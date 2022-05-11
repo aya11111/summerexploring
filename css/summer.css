@@ -1,0 +1,574 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+input {
+    caret-color: #8675a9;
+}
+
+/* start header */
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    background-image: url(../images/Shape.png);
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    padding: 10px 0 
+
+}
+
+header nav .navbar-brand {
+    height: 75px;
+    width: 65px;
+    
+}
+header .navbar-light .navbar-collapse {
+    background-color: #fff;
+}
+header .navbar-light .navbar-nav .active>.nav-link{
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #54524f
+}
+header .navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #8675a9
+}
+header nav .header-search {
+    background-color: #fff;
+    border-radius: 25px;
+    margin-left: 40px;
+    width: 200px;
+    border: 2px solid #8675a9
+}
+header nav .header-search:focus {
+    border: 2px solid #8675a9;
+    box-shadow: none;
+}
+header nav .search-icon {
+    margin-left: -30px;
+    color: #8675a9
+}
+
+/* end header */
+
+
+/* start home */
+#home {
+    position: relative;
+    height: calc(100vh - 100px);
+    width: 100%;
+    margin-top: 100px
+    
+    
+}
+#home img {
+    width: 100%;
+    height: 100%
+}
+#home .home-details {
+    position: absolute;
+    top: 20vh;
+    left: 30px;
+    width: 40%;
+    text-transform: uppercase
+}
+#home .home-details h1 {
+    color: #8675a9;
+    font-weight: bold;
+    font-size: 65px;
+    letter-spacing: 2px
+}
+#home .home-details h6 {
+    font-weight: bold;
+    color: #54524f;
+    margin-top: -10px;
+    letter-spacing: 3px
+}
+#home .home-details button {
+    background-color: #fff;
+    color: #54524f;
+    border-radius: 25px;
+    border: 1px solid #8675a9;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    font-size: 15px
+}
+#home .home-details button:hover {
+    background-color: #8675a9;
+    color: #fff;
+}
+#home .home-details p {
+    color: #54524f;
+    text-transform: capitalize;
+    font-size: 15px
+}
+/* end home */
+
+/* start let's go */
+
+#lets .lets-content{
+    position: absolute;
+    top: 87vh;
+    left:0;
+    height: 50px;
+    z-index: 1;
+    background-image: url(../images/Shape02.png);
+    background-size: cover;
+    width: 100%;
+    padding-top: 150px;
+    
+}
+
+#lets .upper-details {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    letter-spacing: 1px;
+    padding-top: 70px
+}
+#lets .upper-details h2 {
+    text-transform: uppercase;
+    color: #8675a9;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+#lets .upper-details p {
+    font-size: 16px;
+    color: #54524f;
+    margin-bottom: 40px
+}
+#lets .go {
+    width: 100%;
+    margin: auto
+}
+#lets .go img {
+    width: 100%;
+    height: 300px
+}
+#lets .go h5 {
+    font-weight: bold
+}
+#lets .go .go-info {
+    background-color: #8675a9;
+    color: #fff;
+    padding: 20px 10px;
+    margin-bottom: 20px
+}
+#lets .go-button {
+    width: 100%;
+    text-align: center
+}
+#lets .go-button button {
+    background-color: #fff;
+    border: 1px solid #8675a9;
+    border-radius: 25px;
+    color: #54524f;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 40px;
+    
+}
+#lets button:hover {
+    color: #fff;
+    background-color: #8675a9
+}
+/* end let's go */
+
+/* start discount */
+#discount {
+    margin:0;
+    padding-top:50px
+}
+#discount .row {
+    margin:0;
+    padding:0
+}
+#discount .col-12,
+#discount .col-md-6 {
+    padding:0
+}
+#discount img {
+    width: 100%;
+    height: 400px
+}
+#discount .grey .discount-details,
+#discount .grey .promo-details{
+    background-color: #7f7770;
+    padding: 100px 50px;
+    color: #fff;
+    height: 400px
+}
+#discount .grey .discount-details h3,
+#discount .grey .promo-details h3 {
+    font-weight: bold;
+    margin-bottom: 20px
+}
+#discount .grey .discount-details button,
+#discount .grey .promo-details button {
+    background-color: #8675a9;
+    border-radius: 25px;
+    border: 1px solid #8675a9;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold
+}
+#discount .grey .discount-details button:hover,
+#discount .grey .promo-details button{
+    background-color: #fff;
+    color: #8675a9
+}
+#discount .grey .promo-details {
+    background-color: #8675a9
+}
+#discount .grey .promo-details button:hover {
+    background-color: #8675a9;
+    color: #fff;
+    border: 1px solid #fff
+}
+/* end discount */
+
+/* start hicking */
+#hicking {
+    position: relative;
+    
+}
+#hicking .hicking-sec {
+    background-image: url(../images/Shadow\ .png);
+    background-color: #7f7770;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    opacity: .9;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+#hicking .hicking-sec .hicking-details {
+    width: 60%;
+    margin: auto;
+    padding: 250px 20px
+}
+#hicking .hicking-sec h2 {
+    font-weight: bold;
+    margin-bottom: 30px
+}
+#hicking .shape1 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index:1
+}
+#hicking .shape2 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    z-index:1
+}
+/* end hicking */
+
+/* start explore */
+#explore .explore-image{
+    position: relative;
+    background-image: url(../images/explore.png);
+    background-size: 100% 700px;
+    height: 750px
+}
+#explore .shape1 {
+    position: absolute;
+    top:-85px;
+    left:0;
+    width: 100%;
+    z-index:1
+}
+#explore .shape2 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    z-index:1
+}
+#explore .explore-head{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    z-index:1;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+#explore .explore-head h2 {
+    color: #8675a9;
+    font-size: 45px;
+    font-weight: bold
+}
+#explore .explore-head h3 {
+    color: #8675a9;
+    font-size: 45px;
+    font-weight: bold
+}
+#explore .explore-head h3 {
+    color: #54524f
+}
+#explore .explore-image 
+#explore .explore-image img {
+    width: 100%;
+    height: 100%
+}
+#explore .explore-lorem .explore-details {
+    text-align: center;
+    margin-bottom: 20px
+}
+#explore .explore-lorem .explore-details h4 {
+    color: #8675a9;
+    font-weight: bold
+}
+#explore .explore-lorem .explore-details p {
+    color: #54524f
+}
+#explore .paragraph {
+    position: relative;
+    height: 400px;
+    text-align: center;
+    
+}
+#explore .paragraph .p-content {
+    width: 70%;
+    margin: auto;
+    padding: 150px 0;
+    color: #54524f;
+    text-transform: capitalize
+}
+#explore .paragraph .p-content p {
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+#explore .paragraph .p-content span {
+    font-weight: bold
+}
+#explore .shadow2 {
+    position: absolute;
+    width: 50%;
+    right:0;
+    top:0;
+    height: 400px
+
+}
+/* end explore */
+
+/* start subscribe */
+#subscribe {
+    position: relative;
+
+}
+#subscribe .subscribe-content{
+    background-color: #8675a9;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px;
+    text-transform: capitalize
+}
+#subscribe .subscribe-content h2 {
+    font-weight: bold;
+    margin-bottom: 30px
+}
+#subscribe .subscribe-content form {
+    margin-top: 30px
+}
+#subscribe .subscribe-content form input[type="email"] {
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px;
+    outline: unset;
+    width: 300px
+}
+#subscribe .subscribe-content form input[type="submit"] {
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px;
+    outline: unset;
+    background-color: #54524f;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: -35px;
+    margin-top: 10px;
+    border: 1px solid #54524f;
+    
+}
+#subscribe .subscribe-content form input[type="submit"]:hover {
+    background-color: #8675a9;
+    color: #fff;
+    border: 1px solid #fff;
+}
+#subscribe .shape1 {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    height: 100px;
+    width: 100%
+}
+#subscribe .shape2 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
+    height: 100px;
+    width: 100%
+}
+/* end subscribe */
+
+/* start footer */
+#footer {
+    position: relative;
+    text-transform: capitalize
+}
+
+#footer .shape1 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px
+}
+#footer .footer-content{
+    background-color: #54524f;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 50px
+}
+#footer .footer-content h4 {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#footer .footer-content h6 {
+    cursor: pointer;
+}
+#footer .footer-content h6:hover {
+    color: #8675a9
+}
+#footer .footer-content .icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    cursor: pointer
+}
+#footer .footer-content .icon svg {
+    color: #54524f;
+    height: 20px;
+    width: 20px;
+    
+}
+#footer .footer-content .icon:hover svg{
+    color: #8675a9;
+}
+/* end footer */
+
+/* start mediaquery responsive */
+@media (max-width:991px) {
+
+    header nav .header-search {
+        margin-left:20px
+    }
+
+    #home .home-details h1 {
+        font-size: 50px
+    }
+    #home .home-details h6 {
+        font-size: 15px
+    }
+    #explore .shape1 {
+        top:0
+    }
+}
+@media (max-width:767px) {
+    #home .home-details h1 {
+        font-size: 35px
+    }
+    #home .home-details h6 {
+        font-size: 12px
+    }
+    #discount .grey .discount-details,
+    #discount .grey .promo-details {
+        padding: 50px 20px
+    }
+    
+    #explore .explore-head {
+        transform:translate(-50%, -50%);
+        top: 30%;
+        left: 50%;
+        
+    }
+    #explore .explore-image {
+        height: 500px
+    }
+    #explore .explore-head h2 {
+        font-size: 30px
+    }
+    #explore .explore-head h3 {
+        font-size: 30px
+    }
+    #subscribe .subscribe-content form input[type="email"] {
+        
+        width: 90%
+    }
+    #subscribe .subscribe-content form input[type="submit"] {
+        
+        width: 90%;
+        margin-left:0
+    }
+    #footer {
+        text-align: center
+    }
+}
+@media (max-width:575px) {
+    header nav .header-search {
+        width: 80%
+    }
+    #home .home-details h1 {
+        font-size: 25px
+    }
+    #home .home-details h6 {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    #home .home-details p {
+        font-size: 10px
+    }
+    #home .home-details button {
+        padding: 5px 8px
+    }
+    #lets .upper-details {
+        width: 90%
+    }
+    #discount .grey .discount-details,
+    #discount .grey .promo-details {
+        padding: 40px 20px
+    }
+    #hicking .hicking-sec .hicking-details {
+        width: 90%
+    }
+}
+/* end mediaquery responsive /*
